@@ -1,0 +1,104 @@
+
+/*a{
+   text-decoration: none;
+   background: #75f4ea;
+}*/
+
+
+/* Selector Universal */
+/*
+*{
+    color: #0454b1;
+    background: #fffdc4;
+}
+*/
+
+/* Selector Descendiente */
+h1 span{
+    color: #0053c4;
+    font-size: 60px;
+}
+
+section article{
+    color: #0454b1
+}
+
+section p{
+    color: red;
+}
+/* Selector de Clase */
+.parrafo{
+    background: #445798;
+    color: #ffffff;
+}
+/*Selector de Id*/
+#enlace{
+    text-decoration: none;
+    background: #fffdc4;
+    color: red;
+}
+/*Selector descendente multiple*/
+section .unoclass #dosid{
+    color: #0b8900;
+}
+
+section .unoclass #dosid #idspan{
+    background: #d5e23b;
+}
+
+section #dosid article{
+    color: #0dced6;
+}
+
+section #dosid article .dosclass{
+    color: red;
+}
+/* selector Hijo */
+div> p{
+    color:#d01c1c;
+}
+
+/* Selector de hermano Adyacente*/
+p + h2{
+    color:#36be25;
+}
+/* Selector de Atributo*/
+a[herf]{
+    text-decoration: none;
+    background-color: :#1fb92a;
+}
+a[id]{
+    background-color: #000000;
+    color: #fcf2f2
+}
+/* Selector de atributo separado por espacio en blanco*/
+
+p[class~="Texto"]{
+    color:#db1d1d;
+
+}
+
+/* Selector de atributo comienza com*/
+a[href^="http://"]{
+    color:#233dcc;
+}
+
+/* Usando LINK*/
+a:link{
+    color:#8319b2;
+}
+/* visitado*/
+a:visited{
+    color:#d0bc24;
+}
+/* usando pseudo selecto active*/
+a:active{
+    font-size: 25px;
+    background-color: #1ddbd4;
+}
+/* hover*/
+a:hover{
+    background-color: #ef1515;
+}
+
+
